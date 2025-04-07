@@ -1,4 +1,3 @@
-// src/App.tsx
 import TopProductCard from "./components/cards/TopProductCard";
 import ProductionPlanChart from "./components/charts/ProductionPlanChart";
 import ProductionStatusChart from "./components/charts/ProductionStatusChart";

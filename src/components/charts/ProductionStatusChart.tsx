@@ -47,8 +47,8 @@ const ProductionStatusChart: React.FC = () => {
       onSelect={(data) => filterDataByTime(data)}
       placeholder="Chọn tháng"
     >
-      <div className="flex flex-col items-center" style={{ height: "24rem" }}>
-        <div className="overflow-hidden bg-white rounded-lg dark:bg-black w-[500px]">
+      <div className="flex flex-col items-center" style={{ height: "25rem" }}>
+        <div className="overflow-hidden  w-[350px]">
           <DountChat
             chartData={displayData}
             chartLabels={chartLabels}
